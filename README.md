@@ -39,3 +39,4 @@ Very simple API to create own short links.
 * Better domain/default domain setup in create link API
 * Website
 * Rate limiter
+* Use https://hashids.org/python/ to generate better IDs
