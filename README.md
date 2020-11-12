@@ -18,7 +18,7 @@ Very simple API to create own short links.
 
 ## Run coverage and generate html
 
-`docker-compose -f docker-compose.test.yml run testapi pytest`
+`docker-compose -f docker-compose.test.yml run testapi bash -c "coverage run -m pytest && coverage html"`
 
 ## Swagger API docs (local machine)
 
