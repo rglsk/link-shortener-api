@@ -16,6 +16,10 @@ Very simple API to create own short links.
 
 `docker-compose -f docker-compose.test.yml run testapi pytest`
 
+## Run coverage and generate html
+
+`docker-compose -f docker-compose.test.yml run testapi pytest`
+
 ## Swagger API docs (local machine)
 
 * localhost:8000/docs
@@ -34,3 +38,4 @@ Very simple API to create own short links.
 * Add more requests to the API
 * Better domain/default domain setup in create link API
 * Website
+* Rate limiter
