@@ -7,6 +7,7 @@ Very simple API to create own short links.
 * FastAPI
 * SQLAlchemy (Postgresql)
 * pipenv
+* black (code formatter)
 
 ## Run app
 
